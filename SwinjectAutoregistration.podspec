@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwinjectAutoregistration'
-  s.version          = '2.6.0'
+  s.version          = '2.7.0'
   s.summary          = 'Autoregistration for Swinject'
   s.description      = <<-DESC
 SwinjectAutoregistration is an extension of Swinject that allows to automatically inject dependencies into registered services.
@@ -16,7 +16,7 @@ SwinjectAutoregistration is an extension of Swinject that allows to automaticall
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
   s.requires_arc = true
-
+  s.swift_version = '5.0'
   s.source_files = 'Sources/**/*.{swift,h}'
-  s.dependency 'Swinject', '~> 2.6'
+  s.dependency 'Swinject', '~> 2.7'
 end
